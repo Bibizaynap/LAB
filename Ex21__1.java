@@ -15,14 +15,14 @@ public class Ex21_1 {
         LinkedHashSet<String> lhs2 = new LinkedHashSet<>();
         lhs2.addAll(x2);
 
-        n1.addAll(x2);
+        x1.addAll(x2);
         System.out.println("Union: " + x1);
 
         LinkedHashSet<String> copyNames1 = new LinkedHashSet<String>(lhs1);
         copyNames1.retainAll(n2);
         System.out.println("Intersection: " + copyNames1);
 
-        n1.removeAll(copyNames1);
+        x1.removeAll(copyNames1);
         System.out.println("Difference: " + x1);
     }
 
