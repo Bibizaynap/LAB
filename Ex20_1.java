@@ -8,7 +8,7 @@ public class Ex20_1 {
             Ex20_1 exer2001 = new Ex20_1();
             File file = new File(".");
             try {
-                file = exercise2001.getFileFromResources(fileName);
+                file = exer2001.getFileFromResources(fileName);
             } catch (Exception e) {
                 e.printStackTrace();
                 System.out.println(":(" + " " + e.getLocalizedMessage());
